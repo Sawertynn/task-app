@@ -1,6 +1,6 @@
 import argparse
 
-from taskapp.tasks import TaskManager, Task
+from taskapp.tasks import TaskManager
 from taskapp.cli.formatters import print_task_tree
 from taskapp.storage.filedb import FileDB
 

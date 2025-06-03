@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TaskApp</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    ul { list-style-type: none; padding-left: 1rem; }
+    li { margin: 0.25rem 0; }
+    .done { text-decoration: line-through; color: gray; }
+    .indent { margin-left: 1rem; }
+    .edit-input { margin-left: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Tasks</h1>
+  <ul id="task-list"></ul>
+
+  <h2>Add Task</h2>
+  <input id="task-title" placeholder="New task title" />
+  <select id="task-parent"></select>
+  <button id="add-task-btn" onclick="addTask()">Add</button>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

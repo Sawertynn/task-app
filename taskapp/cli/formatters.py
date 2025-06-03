@@ -1,7 +1,7 @@
 from taskapp.tasks import Task, TaskManager
 
 
-def format_task(task, depth=0):
+def format_task(task: Task, depth=0):
     indent = "  " * depth
     status = "✔" if task.done else " "
     return f"{indent}- [{status}] {task.title} ({task.id})"

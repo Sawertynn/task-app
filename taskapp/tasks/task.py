@@ -42,4 +42,8 @@ class Task:
         self.finished = completion_time or datetime.now()
         return True
     
+    def toggle(self) -> bool:
+        self.done = not self.done
+        return self.done
+    
     
