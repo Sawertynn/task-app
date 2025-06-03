@@ -1,4 +1,4 @@
-from tasklist import TaskList
+from taskapp.tasks.taskmanager import TaskManager
 
 def main():
     print(" === Task App === ")
